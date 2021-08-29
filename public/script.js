@@ -54,7 +54,7 @@ const listOfProjects = [
 listOfProjects.forEach((project, i) => {
   const card = document.createElement("div");
   card.innerHTML = `
-    <a href="/${project}" target="_black" rel="noreferrer noopener">${project}</a>
+    <a href="./../${project}/index.html" target="_black" rel="noreferrer noopener">${project}</a>
     `;
 
   document.body.append(card);
