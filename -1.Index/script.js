@@ -1,0 +1,61 @@
+const listOfProjects = [
+  "01.ExpandingCards",
+  "02.ProgressSteps",
+  "03.RotatingNav	",
+  "04.HiddenSearch	",
+  "05.BlurryLoading",
+  "06.ScrollAnimation",
+  "07.SplitLandingPage",
+  "08.FormWaveAnimation",
+  "09.SoundBoard	",
+  "10.DadJokes	",
+  "11.KeyCodes	",
+  "12.FAQCollapse	",
+  "13.RandomChoicePicker",
+  "14.AnimatedNavigation",
+  "15.IncrementCounter",
+  "16.DrinkWater	",
+  "17.MovieApp	",
+  "18.BackgroundSlider",
+  "19.ThemeClock	",
+  "20.ButtonRippleEffect",
+  "21.DragNDrop	",
+  "22.DrawingApp	",
+  "23.KineticCSSLoader",
+  "24.ContentPlaceholder",
+  "25.StickyNavbar",
+  "26.DoubleVerticalSlider",
+  "27.ToastNotification",
+  "28.GithubProfiles",
+  "29.DoubleClickHeart",
+  "30.AutoText",
+  "31.PasswordGenerator",
+  "32.Checkboxes",
+  "33.NotesApp",
+  "34.AnimatedCountdown",
+  "35.ImageCarousel",
+  "36.Hoverboard",
+  "37.Pokedex",
+  "38.MobileTabNavigation",
+  "39.PasswordStrengthBackground",
+  "40.3DBackgroundBoxes",
+  "41.VerifyAccount",
+  "42.LiveUserFilter",
+  "43.FeeedbackDesign",
+  "44.CustomRangeSlider",
+  "45.NetflixNavigation",
+  "46.QuizApp",
+  "47.TestimonialBoxSwitcher",
+  "48.RandomImageFeed",
+  "49.TodoList",
+  "50.InsectCatchGame",
+];
+
+listOfProjects.forEach((project, i) => {
+  const card = document.createElement("div");
+  card.innerHTML = `
+    <a href="/${project}" target="_black" rel="noreferrer noopener">${project}</a>
+    `;
+
+  document.body.append(card);
+});
